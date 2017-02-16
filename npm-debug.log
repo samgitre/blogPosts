@@ -1,0 +1,66 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'restart' ]
+2 info using npm@3.10.3
+3 info using node@v6.7.0
+4 verbose run-script [ 'prerestart',
+4 verbose run-script   'prestop',
+4 verbose run-script   'stop',
+4 verbose run-script   'poststop',
+4 verbose run-script   'restart',
+4 verbose run-script   'prestart',
+4 verbose run-script   'start',
+4 verbose run-script   'poststart',
+4 verbose run-script   'postrestart' ]
+5 info lifecycle bitsyblog@0.0.0~prerestart: bitsyblog@0.0.0
+6 silly lifecycle bitsyblog@0.0.0~prerestart: no script for prerestart, continuing
+7 info lifecycle bitsyblog@0.0.0~prestop: bitsyblog@0.0.0
+8 silly lifecycle bitsyblog@0.0.0~prestop: no script for prestop, continuing
+9 info lifecycle bitsyblog@0.0.0~stop: bitsyblog@0.0.0
+10 silly lifecycle bitsyblog@0.0.0~stop: no script for stop, continuing
+11 info lifecycle bitsyblog@0.0.0~poststop: bitsyblog@0.0.0
+12 silly lifecycle bitsyblog@0.0.0~poststop: no script for poststop, continuing
+13 info lifecycle bitsyblog@0.0.0~restart: bitsyblog@0.0.0
+14 silly lifecycle bitsyblog@0.0.0~restart: no script for restart, continuing
+15 info lifecycle bitsyblog@0.0.0~prestart: bitsyblog@0.0.0
+16 verbose lifecycle bitsyblog@0.0.0~prestart: unsafe-perm in lifecycle true
+17 verbose lifecycle bitsyblog@0.0.0~prestart: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/home/samgitre/Desktop/Projects/bitsyblog/node_modules/.bin:/usr/local/bin:/home/samgitre/bin:/home/samgitre/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+18 verbose lifecycle bitsyblog@0.0.0~prestart: CWD: /home/samgitre/Desktop/Projects/bitsyblog
+19 silly lifecycle bitsyblog@0.0.0~prestart: Args: [ '-c', 'npm run -s build' ]
+20 silly lifecycle bitsyblog@0.0.0~prestart: Returned: code: 0  signal: null
+21 info lifecycle bitsyblog@0.0.0~start: bitsyblog@0.0.0
+22 verbose lifecycle bitsyblog@0.0.0~start: unsafe-perm in lifecycle true
+23 verbose lifecycle bitsyblog@0.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/home/samgitre/Desktop/Projects/bitsyblog/node_modules/.bin:/usr/local/bin:/home/samgitre/bin:/home/samgitre/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+24 verbose lifecycle bitsyblog@0.0.0~start: CWD: /home/samgitre/Desktop/Projects/bitsyblog
+25 silly lifecycle bitsyblog@0.0.0~start: Args: [ '-c', 'NODE_ENV=production pm2 start dist' ]
+26 info lifecycle bitsyblog@0.0.0~start: Failed to exec start script
+27 verbose stack Error: bitsyblog@0.0.0 start: `NODE_ENV=production pm2 start dist`
+27 verbose stack spawn ENOENT
+27 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:33:16)
+27 verbose stack     at emitTwo (events.js:106:13)
+27 verbose stack     at ChildProcess.emit (events.js:191:7)
+27 verbose stack     at maybeClose (internal/child_process.js:877:16)
+27 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+28 verbose pkgid bitsyblog@0.0.0
+29 verbose cwd /home/samgitre/Desktop/Projects/bitsyblog
+30 error Linux 4.4.0-62-generic
+31 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "restart"
+32 error node v6.7.0
+33 error npm  v3.10.3
+34 error file sh
+35 error code ELIFECYCLE
+36 error errno ENOENT
+37 error syscall spawn
+38 error bitsyblog@0.0.0 start: `NODE_ENV=production pm2 start dist`
+38 error spawn ENOENT
+39 error Failed at the bitsyblog@0.0.0 start script 'NODE_ENV=production pm2 start dist'.
+39 error Make sure you have the latest version of node.js and npm installed.
+39 error If you do, this is most likely a problem with the bitsyblog package,
+39 error not with npm itself.
+39 error Tell the author that this fails on your system:
+39 error     NODE_ENV=production pm2 start dist
+39 error You can get information on how to open an issue for this project with:
+39 error     npm bugs bitsyblog
+39 error Or if that isn't available, you can get their info via:
+39 error     npm owner ls bitsyblog
+39 error There is likely additional logging output above.
+40 verbose exit [ 1, true ]
