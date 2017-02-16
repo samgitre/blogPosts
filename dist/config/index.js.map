@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../src/config/index.js"],"names":[],"mappings":";;;;;kBAAc;AACZ,UAAS,IADG;AAEZ,iBAAe;AAFH,C","file":"index.js","sourcesContent":["export default{\r\n  \"port\" : 4000,\r\n  \"dbConString\": \"mongodb://bitsy_soft:dy13lsd7425@ds139879.mlab.com:39879/bitsyblog\"\r\n};\r\n"]}
+{"version":3,"sources":["../../src/config/index.js"],"names":[],"mappings":";;;;;kBAAc;AACZ,UAAS,IADG;AAEZ,iBAAe;AAFH,C","file":"index.js","sourcesContent":["export default{\r\n  \"port\" : 4000,\r\n  \"dbConString\": \"mongodb://localhost/bitsyblog\"\r\n};\r\n"]}
